@@ -28,7 +28,7 @@ function App() {
         getRows()
     }, [])
     return (
-        <Container className="App">
+        <Container>
             <Row><h3>Keyword Research sheet</h3></Row>
             <Row>
                 <Table striped bordered hover responsive size={'sm'}>
